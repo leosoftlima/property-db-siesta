@@ -1,7 +1,7 @@
+package mop;
+
 import org.aspectj.lang.JoinPoint;
 import org.aspectjml.lang.annotation.After;
-
-import br.cin.ufpe.SpecificationRuntimeSiesta;
 
 public class URLConnection_OverrideGetPermissionHandler {
 
@@ -9,6 +9,6 @@ public class URLConnection_OverrideGetPermissionHandler {
     public void vioURLConnection_OverrideGetPermission(JoinPoint joinPoint) {
 
     	Class objClasse = joinPoint.getStaticPart().getSignature().getDeclaringType();
-    	SpecificationRuntimeSiesta.eventURLConnection_OverrideGetPermission(objClasse);
+    	NetSpecificationHandler.eventURLConnection_OverrideGetPermission(objClasse);
     }
 }

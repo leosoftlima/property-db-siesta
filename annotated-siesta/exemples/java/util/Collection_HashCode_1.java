@@ -1,9 +1,10 @@
+package mop;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
-public class CollectionHashCode_1 implements Collection<String> {
+public class Collection_HashCode_1 implements Collection<String> {
     static {
         //System.out.println("Inicialização estática da classe CollectionInitializationExample");
     }
@@ -15,9 +16,6 @@ public class CollectionHashCode_1 implements Collection<String> {
         // Criar uma instância da classe que implementa Collection
         Collection<String> collection = new ArrayList<>();
 
-        // Outros códigos ou operações com a instância
-        System.out.println("aqui...");
-        System.out.println(String.valueOf(false));
     }
 
     @Override

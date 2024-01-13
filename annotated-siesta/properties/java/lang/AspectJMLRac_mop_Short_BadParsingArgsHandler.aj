@@ -1,8 +1,6 @@
 import mop.*;
 import org.aspectjml.ajmlrac.runtime.*;
 import org.aspectjml.lang.annotation.*;
-import br.cin.ufpe.SpecificationRuntimeSiesta;
-import br.cin.ufpe.SpecificationRuntimeSiesta.*;
 import org.aspectjml.lang.annotation.siesta.Before;
 import org.aspectjml.lang.annotation.siesta.Before.*;
 import java.util.Map;

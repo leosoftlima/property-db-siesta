@@ -1,4 +1,6 @@
-import br.cin.ufpe.SpecificationRuntimeSiesta;
+package mop;
+
+
 import org.aspectjml.lang.annotation.siesta.Before;
 
 public class Byte_BadParsingArgsHandler {
@@ -6,7 +8,7 @@ public class Byte_BadParsingArgsHandler {
     @Before("* java.lang.Byte.parseByte(..)")
     public static void vioByteBadParsingArgs(String name, boolean isStatic, Object[] args) {
 
-         SpecificationRuntimeSiesta.eventByteBadParsingArgs(args);
+         LangSpecificationHandler.eventByteBadParsingArgs(args);
 
     }
 

@@ -1,4 +1,6 @@
-import br.cin.ufpe.SpecificationRuntimeSiesta;
+package mop;
+
+
 import org.aspectjml.lang.annotation.siesta.Before;
 
 public class URLDecoder_DecodeUTF8Handler {
@@ -6,7 +8,7 @@ public class URLDecoder_DecodeUTF8Handler {
     @Before("* java.net.URLDecoder.decode(..)")
     public static void vioDecoder_DecodeUTF8(String name, boolean isStatic, Object[] args) {
 
-          SpecificationRuntimeSiesta.eventURLDecoder_DecodeUTF8(args);
+    	NetSpecificationHandler.eventURLDecoder_DecodeUTF8(args);
 
     }
 }

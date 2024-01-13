@@ -1,9 +1,11 @@
+package mop;
+
 
 import java.net.*;
 import java.io.IOException;
 import java.security.Permission;
 
-public class URLConnection_OverrideGetPermission_App {
+public class URLConnection_OverrideGetPermission_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

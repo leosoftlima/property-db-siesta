@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 
-privileged aspect AspectJMLRac_mop_CollectionHashCodeHandler$67856fb6_70eb_4d77_8c71_fa09e2793981 {
+privileged aspect AspectJMLRac_mop_CollectionHashCodeHandler {
 
  declare precedence: AspectJMLRac$JMLRacPost4Project, AspectJMLRac_* , *;
 

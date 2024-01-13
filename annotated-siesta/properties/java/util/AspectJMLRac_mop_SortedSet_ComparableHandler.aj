@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 
-privileged aspect AspectJMLRac_mop_SortedSet_ComparableHandler$45d0a58f_80e0_4ff8_af82_7f3ce8f7d535 {
+privileged aspect AspectJMLRac_mop_SortedSet_ComparableHandler {
 
  declare precedence: AspectJMLRac$JMLRacPost4Project, AspectJMLRac_* , *;
 

@@ -1,3 +1,5 @@
+package mop;
+
 import java.util.StringTokenizer;
 
 public class StringTokenizer_HasMoreElements_1 {

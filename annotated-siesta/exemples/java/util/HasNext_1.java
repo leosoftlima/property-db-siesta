@@ -1,3 +1,5 @@
+package mop;
+
 import java.util.*;
 
 public class HasNext_1 {
