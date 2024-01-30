@@ -1,3 +1,5 @@
+package mop;
+
 import java.lang.Long;
 
 public class Long_BadParsingArgs_1 {

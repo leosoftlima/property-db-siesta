@@ -1,3 +1,5 @@
+package mop;
+
 
 public class Short_BadParsingArgs_1 {
 
