@@ -7,6 +7,21 @@ import java.io.InputStream;
 import java.util.Properties;
 import java.io.StringBufferInputStream;
 
+/**
+ * Warns read(), available(), reset() or skip() after close().
+ *
+ * Properties.loadFromXML() takes an InputStream object, uses it, and then
+ * closes it when it returns. That is, calling loadFromXML() is like calling
+ * InputStream.close(), and the InputStream object should be considered
+ * closed.
+ * http://docs.oracle.com/javase/6/docs/api/java/util/Properties.html#loadFromXML%28java.io.InputStream%29
+ *
+ * This property is similar to InputStream_ManipulateAfterClose; only 'close'
+ * event is different.
+ *
+ * @severity error
+ */
+
 public class Properties_ManipulateAfterLoadHandler {
 
     @Before("* java.util.Properties+.loadFromXML(..)")
